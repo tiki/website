@@ -1,0 +1,6 @@
+[submodule "router"]
+	path = router
+	url = https://github.com/tiki/website-router
+[submodule "home"]
+	path = home
+	url = https://github.com/tiki/website-home
