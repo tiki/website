@@ -4,3 +4,9 @@
 [submodule "home"]
 	path = home
 	url = https://github.com/tiki/website-home
+[submodule "console/frontend"]
+	path = console/frontend
+	url = https://github.com/tiki/website-console-frontend
+[submodule "console/refresh"]
+	path = console/refresh
+	url = https://github.com/tiki/website-console-refresh
