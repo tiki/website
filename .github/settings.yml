@@ -1,0 +1,16 @@
+labels:
+  - name: late
+    color: FBCA04
+    description: Milestone is behind schedule.
+
+  - name: blocked
+    color: D73A4A
+    description: Something is blocking this.
+
+  - name: duplicate
+    color: CFD3D7
+    description: This issue or pull request already exists.
+
+  - name: ms
+    color: FFFFFF
+    description: Indicates this issue is a milestone.

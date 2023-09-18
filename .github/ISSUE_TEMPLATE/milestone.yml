@@ -1,0 +1,39 @@
+name: Milestone
+description: Create a new milestone
+title: "[Milestone Name]"
+projects: ["tiki/1"]
+labels:
+  - ms
+assignees:
+  - timoguin
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Nice! Let's open a milestone.**
+        *As a reminder, milestones combine multiple issues into a single, released deliverable. If you're unsure, just open a normal story.*
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the milestone. Include key requirements, features, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: issues
+    attributes:
+      label: Issues
+      description: Add all issues required to complete the milestone as a task list.
+      value: |
+        # Issues:
+        - [ ] tiki/<repository_name>#<issue number>
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirm
+      description: You sure this is a milestone?
+      options:
+        - label: Yeah dude.
+          required: true

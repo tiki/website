@@ -1,0 +1,6 @@
+# IntelliJ
+.idea
+*.iml
+
+# Fuckin Macs
+.DS_Store
